@@ -53,7 +53,7 @@ article>img {
     width: 10vw;   
 }
 article>img :last-child{
-    margin-top: 10px;
+    width: 9vw; 
 }
 h2{
     
