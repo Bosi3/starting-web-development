@@ -52,6 +52,9 @@ article>img {
     float: left;
     width: 10vw;   
 }
+article>img :last-child{
+    margin-top: 10px;
+}
 h2{
     
     padding-bottom: 30px;
