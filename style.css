@@ -30,6 +30,7 @@ header, aside, article {
     text-align: center;
     padding-bottom: 30px;
     padding-top: 30px;
+    border-radius: 5px;
 }
 p{
     text-align: justify;
