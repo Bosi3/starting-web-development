@@ -1,15 +1,17 @@
 body{
     font-family: "Open Sans", sans-serif;
-    background-color: #e3e7ed;
+    background-color: #ebebeb;
+    color: #7d7d7d;
 }
 h1, h2, h3{
     font-family: 'Montserrat';
+    color: #7d7d7d;
 }
 h1 {
-    color: #DC143C;
+    color: #dd5555;
 }
 .button {
-    background-color: #DC143C; /* Red */
+    background-color: #dd5555; /* Red */
     text-decoration: none;
     color: white;
     border: none;
@@ -19,40 +21,64 @@ h1 {
     display: inline-block;
     font-size: 16px;
 }
-header, aside, article{
+header, aside, article {
     background-color: white;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     width: 500px;
     text-align: center;
     padding-bottom: 30px;
     padding-top: 30px;
 }
+p{
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3%;
+ 
+}
+p.art{
+    
+    padding-left: 30%;
+    padding-right: 5%
+}
 header>img {
     border-radius: 50%;
-    border: 1px solid #e3e7ed;
+    border: 1px solid hsl(216, 22%, 91%);
 }
 aside>i, a {
     display: block;
-    color: #e3e7ed;
+    color: #cccccc;
     margin-left: 20px;
     margin-right: 20px;
 }
 .fab{
-    color:#e3e7ed;
+    color:#cccccc;
 }
-aside>div {
-    display: inline-block;   
+aside>div{
+    display: inline-block;  
+
 }
 article>img, h3{
-    display: inline-block;   
+    display: inline-block; 
+    margin-top: 0;  
 }
 article>img {
     float: left;
-    width: 5vw;   
+    width: 7vw; 
+    vertical-align: text-top;
+    margin-left: 5%;  
+
+}
+span{
+    background-color: #d4d4d4;
 }
 
+article>p {
+    margin-top: 0;
+    text-align: justify-all;
+    font-size: 1em;
+}
 h2{
     
     padding-bottom: 30px;
