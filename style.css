@@ -21,6 +21,9 @@ h1 {
     display: inline-block;
     font-size: 16px;
 }
+header{
+    margin-top: 30px;
+}
 header, aside, article {
     background-color: white;
     margin-left: auto;
