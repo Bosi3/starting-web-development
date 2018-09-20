@@ -50,11 +50,9 @@ article>img, h3{
 }
 article>img {
     float: left;
-    width: 10vw;   
+    width: 8vw;   
 }
-article>img :last-child{
-    width: 7vw; 
-}
+
 h2{
     
     padding-bottom: 30px;
